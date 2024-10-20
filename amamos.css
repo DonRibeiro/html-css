@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+
+@font-face {
+    font-family: 'Avengers';
+    src:url('font/heroesassemble.ttf') format('truetype');
+    font-weight: normal;
+}
+
+/*
+cor 1 azul: #000235
+cor 2 laranja: #FF4A22
+cor 3 preto */
+
+*{
+    margin: 0%;
+}
+
+:root{
+    --color1: #000235;
+    --color2: #FF4A22;
+    --color3: black;
+    --color4: white;
+    --font1: 'avengers', cursive;
+    --font2: 'lato', cursive;
+}
+    
+ body{
+    background-color: var(--color4);
+ }
+
+ header{
+    margin: auto;
+    
+
+ }
+
+ #principal{
+    font-family: 'Avengers', Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 3em;
+    text-align: center;
+ }
+
+ main h2{
+    font-family: var(--font2);
+    font-size: 1.5em;
+    text-align: center;
+ }
+
+ .titulo{
+    font-family: var(--font2);
+    font-size: 1.5em;
+    text-align: center;
+ }
+ 
